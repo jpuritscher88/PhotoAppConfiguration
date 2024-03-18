@@ -1,7 +1,0 @@
-login.url.path=/users/login
-
-# Mysql - DB
- spring.datasource.url=jdbc:mysql://localhost:3306/microservices_photo_app?serverTimezone=UTC
- spring.datasource.username=juergen
- spring.datasource.password=biergarten
- spring.jpa.hibernate.ddl-auto=update
