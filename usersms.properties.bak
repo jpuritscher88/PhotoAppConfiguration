@@ -10,16 +10,10 @@ eureka.instance.instance-id=${spring.application.name}:${spring.application.inst
 #spring.datasource.driverClassName=org.h2.Driver
 #spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 
-#Mysql support
-spring.datasource. url=mysql://localhost:3306/photo_app_microservices?serverTimezone=UTC
-spring.datasource.username=juergen
-spring.datasource.password=biergarten
-spring.jpa.hibernate.ddl-auto=update
-
 gateway.ip=127.0.0.1
 
 # 1 hour in milliseconds
-token.expiration_time=36666666
+token.expiration_time=36088888
 token.secret=dgjorufhrsnjdu438fkdj38fdmcv7dm3ckvhrsnjjuwelueivhe848fhedldh5ndk
 
 login.url.path=/users/login
